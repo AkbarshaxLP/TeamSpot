@@ -130,9 +130,9 @@ p {
 	-ms-transition: all .4s ease-out 0s;
 	-o-transition: all .4s ease-out 0s;
 	transition: all .4s ease-out 0s;
-	background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-	background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-	background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+	background: -webkit-linear-gradient(left, #384DB3 0%, #306EE6 50%, #384DB3 100%);
+	background: -o-linear-gradient(left, #384DB3 0%, #306EE6 50%, #384DB3 100%);
+	background: linear-gradient(to right, #384DB3 0%, #306EE6 50%, #384DB3 100%);
 	background-size: 200%;
 	-webkit-box-shadow: 0 3px 6px 0 rgba(112, 112, 112, .44);
 	-moz-box-shadow: 0 3px 6px 0 rgba(112, 112, 112, .44);
@@ -305,7 +305,7 @@ p {
 .section-title .sub-title {
 	font-size: 25px;
 	font-weight: 600;
-	color: #fe8464
+	color: #384DB3
 }
 
 @media(max-width:767px) {
@@ -431,7 +431,7 @@ p {
 	width: 200%;
 	height: 100%;
 	border-style: solid;
-	border-color: #fe8464 #fe8464 #646f87;
+	border-color: #384DB3 #384DB3 #646f87;
 	border-radius: 50%;
 	border-width: 6px
 }
@@ -879,7 +879,7 @@ p {
 .navbar-nav .nav-item a::before {
 	position: absolute;
 	content: '';
-	background-color: #fe8464;
+	background-color: #384DB3;
 	width: 0;
 	height: 4px;
 	top: -1px;
@@ -979,7 +979,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
 	padding-left: 25px;
-	color: #fe8464
+	color: #384DB3
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -1435,7 +1435,7 @@ p {
 	width: 95px;
 	height: 95px;
 	border-radius: 50%;
-	background-color: #ffefeb
+	background-color: #DAE5FB
 }
 
 .single-services .services-content .services-title {
@@ -1466,7 +1466,7 @@ p {
 }
 
 .single-services .services-content .services-title a:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .single-services .services-content .text {
@@ -1488,7 +1488,7 @@ p {
 .single-services .services-content .more .line-1 {
 	width: 0;
 	height: 2px;
-	background-color: #fe8464;
+	background-color: #384DB3;
 	-webkit-transition: all .3s ease-out 0s;
 	-moz-transition: all .3s ease-out 0s;
 	-ms-transition: all .3s ease-out 0s;
@@ -1512,7 +1512,7 @@ p {
 }
 
 .single-services .services-content .more:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .single-services .services-content .more:hover .line-1 {
@@ -1533,7 +1533,7 @@ p {
 }
 
 .pricing-area {
-	background-color: #f9fbfe
+	background-color: #f0f5ff;
 }
 
 .single-pricing {
@@ -1588,7 +1588,7 @@ p {
 .single-pricing .pricing-price .price {
 	font-size: 40px;
 	font-weight: 700;
-	color: #fe8464
+	color: #384DB3
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -2084,7 +2084,7 @@ p {
 }
 
 .single-blog .blog-content .blog-meta .blog-list li a:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .single-blog .blog-content .blog-text .blog-title a {
@@ -2112,7 +2112,7 @@ p {
 }
 
 .single-blog .blog-content .blog-text .blog-title a:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .single-blog .blog-content .blog-text .text {
@@ -2134,7 +2134,7 @@ p {
 .single-blog .blog-content .blog-text .more .line-1 {
 	width: 0;
 	height: 2px;
-	background-color: #fe8464;
+	background-color: #384DB3;
 	-webkit-transition: all .3s ease-out 0s;
 	-moz-transition: all .3s ease-out 0s;
 	-ms-transition: all .3s ease-out 0s;
@@ -2158,7 +2158,7 @@ p {
 }
 
 .single-blog .blog-content .blog-text .more:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .single-blog .blog-content .blog-text .more:hover .line-1 {
@@ -2268,7 +2268,7 @@ p.form-message.error.form-message.error {
 
 .contact-form .single-form input:focus,
 .contact-form .single-form textarea:focus {
-	border-color: #fe8464
+	border-color: #384DB3
 }
 
 .contact-form .single-form textarea {
@@ -2376,7 +2376,7 @@ p.form-message.error.form-message.error {
 }
 
 .footer-link .link li a:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .subscribe-content {
@@ -2404,7 +2404,7 @@ p.form-message.error.form-message.error {
 }
 
 .subscribe-form input:focus {
-	border-color: #fe8464
+	border-color: #384DB3
 }
 
 .subscribe-form .main-btn {
@@ -2477,7 +2477,7 @@ p.form-message.error.form-message.error {
 }
 
 .footer-copyright .copyright-social .social li a:hover {
-	color: #fe8464
+	color: #384DB3
 }
 
 .footer-copyright .copyright-text {
@@ -2485,7 +2485,7 @@ p.form-message.error.form-message.error {
 }
 
 .footer-copyright .copyright-text .text a {
-	color: #fe8464
+	color: #384DB3
 }
 
 .back-to-top {
@@ -2498,7 +2498,7 @@ p.form-message.error.form-message.error {
 	height: 40px;
 	line-height: 40px;
 	border-radius: 5px;
-	background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+	background: linear-gradient(to right, #384DB3 0%, #306EE6 50%, #384DB3 100%);
 	background-size: 200%;
 	text-align: center;
 	z-index: 99;
@@ -2770,4 +2770,115 @@ transition:background 0s linear 0.4s, border-top-color 0.15s linear, border-righ
 }
 .item-logo {
 	width: 40px;
+}
+
+
+.our-portfolio #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.our-portfolio #myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal-img {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-img-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-img-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close-img {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-img:hover,
+.close-img:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-img-content {
+        width: 100%;
+    }
+}
+
+.portfolio-section  {
+	padding-bottom: 80px;
+}
+.portfolio-section .title {
+	padding-bottom: 50px;
+}
+.customNextBtn, .customPrevBtn {
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 22px;
+	opacity: 0.2;
+	transition: all 0.25s ease-out;
+	padding: 5px 22px 5px 10px;
+}
+.customNextBtn:hover {
+	opacity: 0.4;
+	transform: scale(1.2);
+}
+.customPrevBtn:hover {
+	opacity: 0.4;
+	transform: scale(1.2);
 }

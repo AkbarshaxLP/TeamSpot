@@ -80,4 +80,72 @@ $(function() {
         mobile: false,
     })
     wow.init();
+
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    let a = [1,2,3,4,5];
+    shuffleArray(a);
+
+    for(let i = 0; i < 5; i++) {
+        $('#devs .col-lg-4').eq(i+1).css('order', a[i]);
+    }
+    
+    $(document).ready(function(){
+
+      var owl = $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:20,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+      });
+        $('.customNextBtn').click(function() {
+            owl.trigger('next.owl.carousel');
+        })
+        $('.customPrevBtn').click(function() {
+            owl.trigger('prev.owl.carousel', [300]);
+        })
+
+    });
 });
+
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+$('.myImg').click(function() {
+    console.log($('.myImg').index(this))
+
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+})
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
